@@ -1,0 +1,119 @@
+@media (max-width:1295px){
+    body{
+        width: 100%;
+    }
+    div.title_sectionTwo {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        width: 1104px;
+    }
+    div.footer_menu {
+        display: flex;
+        margin-right: 1px;
+    }
+}
+@media (max-width:1365px){
+    body{
+        width: 100%;
+    }
+    .footer_menu {
+        display: flex;
+        margin-right: 179px;
+    }
+    div.mainInfo {
+        display: flex;
+        justify-content: center;
+        width: 1111px;
+    }
+    div.mainText {
+        margin-bottom: 0px;
+        font-size: 60px;
+        width: 515px;
+    }
+    .footer_menu_col:nth-child(3){
+        margin-right: 20px;
+    }
+    div.footer_menu {
+        display: flex;
+        margin-right: 1px;
+    }
+    .container_footer {
+        display: flex;
+        width: 844px;
+    }
+}
+@media (max-width:1111px){
+    body{
+        width: 100%;
+    }
+    div.mainInfo {
+        display: flex;
+        justify-content: center;
+        width: 1053px;
+    }
+}
+@media (max-width:1109px){
+    body{
+        width: 100%;
+    }
+    div.mainInfo {
+        display: flex;
+        justify-content: center;
+        width: 765px;;
+    }
+    .items{
+        display: grid; 
+        grid-template-columns: 350px 350px; 
+        grid-template-rows: 730px 730px; 
+        gap: 30px 30px; 
+        grid-template-areas: 
+        ". . "
+        ". . "; 
+    }
+    .container_Three {
+        color: white;
+        margin-left: 2px;
+        padding-top: 70px;
+    }
+    div.title_sectionTwo {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        width: 720px;
+    }
+    .container_four {
+        display: flex;
+        margin-top: 70px;
+        margin-left: 2px;
+    }
+    footer {
+        background-color: #E1EDE6;
+        margin-top: 70px;
+        padding-left: 2px;
+    }
+    div.mainText {
+        margin-bottom: 0px;
+        font-size: 60px;
+        width: 445px;
+    }
+}
+@media (max-width:852px){
+    .container_footer {
+        display:block;
+        width: 563px;
+    }
+    .footer_right {
+        display: flex;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    div.logo {
+        width: 17vw;
+        display: flex;
+    }
+}
